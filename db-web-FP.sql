@@ -20,4 +20,7 @@ CREATE TABLE product (
     tipe_mobil VARCHAR (50) DEFAULT NULL, 
     harga VARCHAR (20) DEFAULT NULL, 
     PRIMARY KEY (id) 
-    );
+);
+
+-- akun login khusus admin
+INSERT INTO `login` (`id`, `name`, `email`, `password`, `status`) VALUES (NULL, 'admin', 'admin@gmail.com', '123', 'admin');
