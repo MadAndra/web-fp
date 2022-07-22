@@ -4,6 +4,7 @@ CREATE TABLE login (
     name VARCHAR(50) DEFAULT NULL, 
     email VARCHAR(50) DEFAULT NULL, 
     password text DEFAULT NULL, 
+    status VARCHAR(20),
     PRIMARY KEY (id) 
 );
 
